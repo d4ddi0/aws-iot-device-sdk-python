@@ -1,0 +1,14 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: aws-iot-device-sdk-python
+Source: https://github.com/VivintSolar/aws-iot-device-sdk-python/
+
+Files: *
+Copyright: Copyright 2010-2017 Amazon.com, Inc. or its affiliates.
+License: APACHE-2.0
+ See LICENCE.txt
+
+Files: AWSIoTPythonSDK/core/protocol/paho/*
+Copyright: Copyright (c) 2012-2014 Roger Light
+License: EPL-1.0
+ Refer to http://www.eclipse.org/legal/epl-v10.html
+

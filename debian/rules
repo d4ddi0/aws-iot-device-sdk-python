@@ -1,0 +1,7 @@
+#! /usr/bin/make -f
+
+export PYBUILD_NAME=awsiotpythonsdk
+export DH_VERBOSE = 1
+
+%:
+	dh $@ --with python2,python3 --buildsystem=pybuild

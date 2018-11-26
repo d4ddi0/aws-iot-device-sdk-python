@@ -1,0 +1,10 @@
+python-awsiotpythonsdk (1.4.2) UNRELEASED; urgency=medium
+
+  * Initial deb package
+  * bugfix: Websocket handshake supports Amazon Trust Store (ats) endpoints
+  * bugfix: Remove default port number in samples, which prevented WebSocket
+    mode from using 443
+  * bugfix: jobsSample print statements compatible with Python 3.x
+  * improvement: Small fixes to IoT Jobs documentation
+
+ -- Joshua A Clayton <joshua.clayton@vivintsolar.com>  Mon, 26 Nov 2018 11:20:35 -0700

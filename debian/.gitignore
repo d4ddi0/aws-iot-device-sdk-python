@@ -1,0 +1,6 @@
+debhelper-build-stamp
+*.debhelper
+files
+*.substvars
+/python-awsiotpythonsdk/
+/python3-awsiotpythonsdk/
