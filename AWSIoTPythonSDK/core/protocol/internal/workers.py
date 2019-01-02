@@ -66,7 +66,7 @@ class EventProducer(object):
 
 class EventConsumer(object):
 
-    MAX_DISPATCH_INTERNAL_SEC = 0.01
+    MAX_DISPATCH_INTERNAL_SEC = 0.2
     _logger = logging.getLogger(__name__)
 
     def __init__(self, cv, event_queue, internal_async_client,
